@@ -1,0 +1,21 @@
+.container {
+  margin: 0 auto;
+  width: 85%;
+}
+
+ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.2rem;
+}
+
+ul li {
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.425);
+  padding: 1rem;
+  transition: 0.3s;
+}
+
+ul li:hover {
+  transform: translateY(-3px);
+}
